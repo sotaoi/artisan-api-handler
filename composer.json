@@ -1,0 +1,23 @@
+{
+  "name": "sotaoi/artisan-api-handler",
+  "description": "SOTAOI Artisan Commands",
+  "keywords": [
+    "SOTAOI",
+    "Artisan",
+    "API",
+    "REST",
+    "Handler",
+    "Laravel",
+    "Middleware"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sotaoi\\ArtisanApiHandler\\": "src"
+    }
+  }
+}
